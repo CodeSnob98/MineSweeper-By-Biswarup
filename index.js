@@ -170,7 +170,7 @@
                   setTimeout(() => {
                     document.getElementById(
                       "winningStatus"
-                    ).innerText = `congratulations, you finished in ${time} secs 🤩 `;
+                    ).innerText = `congratulations, your score is ${~~(time/100)} 🤩 `;
                     document.getElementById("won").classList.remove("hide");
                     isOver = true;
                   }, 100);
@@ -192,7 +192,7 @@
                   setTimeout(() => {
                     document.getElementById(
                       "winningStatus"
-                    ).innerText = `congratulations, you finished in ${time} secs 🤩 `;
+                    ).innerText = `congratulations, your score is ${~~(time/100)} 🤩 `;
                     document.getElementById("won").classList.remove("hide");
                     isOver = true;
                   }, 100);
