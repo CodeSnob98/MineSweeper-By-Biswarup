@@ -171,7 +171,7 @@
                     document.getElementById(
                       "winningStatus"
                     ).innerText = `congratulations, your score is ${
-                      1 / (time / 100)
+                      1 / time
                     } 🤩 `;
                     document.getElementById("won").classList.remove("hide");
                     isOver = true;
@@ -195,7 +195,7 @@
                     document.getElementById(
                       "winningStatus"
                     ).innerText = `congratulations, your score is ${
-                      1 / (time / 100)
+                      1 / time
                     } 🤩 `;
                     document.getElementById("won").classList.remove("hide");
                     isOver = true;

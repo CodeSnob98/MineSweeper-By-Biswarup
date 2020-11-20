@@ -2,6 +2,8 @@
 
 2)right click to flag the box as a bomb
 
-3. score is decided by the time taken in milisecs/100
+3)right click to de-flag a flagged cell
 
-4)for checking if all the functionalities are working perfectly or not ,in the console the schema of the grid will be logged out after clicking on start button.
+4. score is decided by 1/(milisecs)
+
+5)for checking if all the functionalities are working perfectly or not ,in the console the schema of the grid will be logged out after clicking on start button.
